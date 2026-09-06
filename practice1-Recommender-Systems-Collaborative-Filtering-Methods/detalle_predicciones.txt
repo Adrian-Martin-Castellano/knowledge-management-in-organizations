@@ -1,0 +1,82 @@
+===========================================
+ DETALLE DE PREDICCIONES Y RECOMENDACIONES
+===========================================
+Métrica: Pearson | Vecinos k = 2 | Tipo = Simple
+
+
+-------------------------------------------
+Usuario 1:
+
+  Item 3
+    * U3 vecino: 0.14783 * 0.349
+    * U2 vecino: 0.101788 * 2.828
+    → Numerador = 0.339449, Denominador = 0.249618 → Predicción = 1.35988
+  Predicción final para (U1, I3): 1.35988 → Poco recomendado
+
+-------------------------------------------
+Usuario 2:
+
+  Item 9
+    * U3 vecino: 0.0559345 * 4.986
+    * U1 vecino: 0.0482982 * 1.018
+    → Numerador = 0.328057, Denominador = 0.104233 → Predicción = 3.14735
+  Predicción final para (U2, I9): 3.14735 → Recomendación media
+
+-------------------------------------------
+Usuario 3:
+
+-------------------------------------------
+Usuario 4:
+
+  Item 2
+    * U5 vecino: 0.241146 * 4.529
+    * U1 vecino: -0.0692962 * 0.587
+    → Numerador = 1.05147, Denominador = 0.310442 → Predicción = 3.38702
+  Predicción final para (U4, I2): 3.38702 → Recomendación media
+
+  Item 3
+    * U1 vecino: 0.13859 * 1.35988
+    * U5 vecino: -0.126293 * 1.465
+    → Numerador = 0.00344632, Denominador = 0.264883 → Predicción = 0.0130107
+  Predicción final para (U4, I3): 0.0130107 → No recomendado
+
+  Item 6
+    * U3 vecino: 0.475699 * 3.951
+    * U5 vecino: 0.40968 * 0.608
+    → Numerador = 2.12857, Denominador = 0.885379 → Predicción = 2.40414
+  Predicción final para (U4, I6): 2.40414 → Recomendación media
+
+  Item 8
+    * U3 vecino: 0.395329 * 4.454
+    → Numerador = 1.76079, Denominador = 0.395329 → Predicción = 4.454
+  Predicción final para (U4, I8): 4.454 → Recomendado
+
+  Item 10
+    * U5 vecino: 0.462239 * 0.696
+    * U3 vecino: 0.447033 * 2.331
+    → Numerador = 1.36375, Denominador = 0.909272 → Predicción = 1.49983
+  Predicción final para (U4, I10): 1.49983 → Poco recomendado
+
+-------------------------------------------
+Usuario 5:
+
+  Item 1
+    * U4 vecino: 0.568479 * 3.05
+    * U1 vecino: 0.0558027 * 2.067
+    → Numerador = 1.84921, Denominador = 0.624282 → Predicción = 2.96213
+  Predicción final para (U5, I1): 2.96213 → Recomendación media
+
+  Item 8
+    * U4 vecino: 0.562834 * 4.454
+    * U1 vecino: 0.0532654 * 2.517
+    → Numerador = 2.64093, Denominador = 0.6161 → Predicción = 4.28654
+  Predicción final para (U5, I8): 4.28654 → Recomendado
+
+===========================================
+ RECOMENDACIONES BASADAS EN PREDICCIONES
+===========================================
+Usuario 1 → recomendar Ítem 3 (valor predicho = 1.35988)
+Usuario 2 → recomendar Ítem 9 (valor predicho = 3.14735)
+Usuario 3 → recomendar Ítem 1 (valor predicho = 0)
+Usuario 4 → recomendar Ítem 8 (valor predicho = 4.454)
+Usuario 5 → recomendar Ítem 8 (valor predicho = 4.28654)

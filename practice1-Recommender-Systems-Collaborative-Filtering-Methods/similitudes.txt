@@ -1,0 +1,66 @@
+===========================================
+ SIMILITUDES ENTRE USUARIOS
+===========================================
+Usuario 1 - Item 3:
+  Sim(U1, U3) = 0.14783
+  Sim(U1, U2) = 0.101788
+  Sim(U1, U5) = 0.00230656
+  Sim(U1, U4) = -0.070061
+  Vecinos más cercanos (2): U3 U2 
+
+Usuario 2 - Item 9:
+  Sim(U2, U3) = 0.0559345
+  Sim(U2, U1) = 0.0482982
+  Sim(U2, U5) = -0.0320521
+  Sim(U2, U4) = -0.659651
+  Vecinos más cercanos (2): U3 U1 
+
+Usuario 4 - Item 2:
+  Sim(U4, U5) = 0.241146
+  Sim(U4, U1) = -0.0692962
+  Sim(U4, U3) = -0.479239
+  Sim(U4, U2) = -0.630105
+  Vecinos más cercanos (2): U5 U1 
+
+Usuario 4 - Item 3:
+  Sim(U4, U1) = 0.13859
+  Sim(U4, U5) = -0.126293
+  Sim(U4, U3) = -0.128796
+  Sim(U4, U2) = -0.658617
+  Vecinos más cercanos (2): U1 U5 
+
+Usuario 4 - Item 6:
+  Sim(U4, U3) = 0.475699
+  Sim(U4, U5) = 0.40968
+  Sim(U4, U1) = 0.235644
+  Sim(U4, U2) = -0.361752
+  Vecinos más cercanos (2): U3 U5 
+
+Usuario 4 - Item 8:
+  Sim(U4, U5) = 0.478859
+  Sim(U4, U3) = 0.395329
+  Sim(U4, U1) = 0.248583
+  Sim(U4, U2) = -0.358522
+  Vecinos más cercanos (2): U5 U3 
+
+Usuario 4 - Item 10:
+  Sim(U4, U5) = 0.462239
+  Sim(U4, U3) = 0.447033
+  Sim(U4, U1) = 0.276312
+  Sim(U4, U2) = -0.439802
+  Vecinos más cercanos (2): U5 U3 
+
+Usuario 5 - Item 1:
+  Sim(U5, U4) = 0.568479
+  Sim(U5, U1) = 0.0558027
+  Sim(U5, U2) = -0.00182612
+  Sim(U5, U3) = -0.169905
+  Vecinos más cercanos (2): U4 U1 
+
+Usuario 5 - Item 8:
+  Sim(U5, U4) = 0.562834
+  Sim(U5, U1) = 0.0532654
+  Sim(U5, U2) = -0.000135208
+  Sim(U5, U3) = -0.145725
+  Vecinos más cercanos (2): U4 U1 
+
