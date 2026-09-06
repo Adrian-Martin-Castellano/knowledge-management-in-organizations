@@ -36,7 +36,7 @@ The developed codebase is modularized across files with distinct responsibilitie
 
 * **`sistema_recomendacion.cc`**: Contains the main application entry point (`main()`). Handles parsing command-line input flags (data files, stopwords, and lemmatization path) and orchestrates the program pipeline.
 * **`document.h` / `document.cc`**: Defines the `class Document`, which computes the TF, TF-IDF, and cosine similarity for a given file:
-  * `calculateTF()`: Calculates the weighted term frequency of the document. Tokenizes the text, converts it to lowercase, strips punctuation and whitespaces, filters out stopwords, and applies lemmatization. Maintains term counts and converts them into logarithmic TF using $\text{TF}(t,d) = 1 + \log_{10}(\text{raw\_tf}(t,d))$, storing results in `term_frequency_`.
+  * `calculateTF()`: Calculates the weighted term frequency of the document. Tokenizes the text, converts it to lowercase, strips punctuation and whitespaces, filters out stopwords, and applies lemmatization. Maintains term counts and converts them into logarithmic TF using TF(t,d) = 1 + log10(raw_tf(t,d)), storing results in `term_frequency_`.
   * `calculateTFIDF()`: Calculates $\text{TF-IDF} = \text{TF} \times \text{IDF}$ for each term. It then normalizes the vector by dividing all term weights by the vector magnitude, populating `TFIDF_`, `normalized_vector_`, and `vector_length_`.
   * `cosineSimilarity()`: Compares the active document against another and returns a similarity score between `0` and `1` (values closer to `1` indicate higher similarity).
   * `showTFIDF()`: Renders a table for the document containing Index, Term, TF, and IDF, as well as displaying the overall TF-IDF vector magnitude.
